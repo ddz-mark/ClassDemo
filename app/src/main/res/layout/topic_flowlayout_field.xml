@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp">
+
+    <Button
+        android:id="@+id/topic_choose_btField"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:padding="6dp"
+        android:gravity="center"
+        android:text="哈哈"
+        android:textSize="14sp"
+        android:textColor="@color/topicChooseFont"
+        android:background="@drawable/shape_topic_choose_0"/>
+
+    <TextView
+        android:id="@+id/topic_choosed_btField"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:padding="6dp"
+        android:gravity="center"
+        android:text="test"
+        android:textSize="14sp"
+        android:textColor="@color/topicChooseFont"
+        android:background="@drawable/shape_topic_choose_0"/>
+
+</FrameLayout>

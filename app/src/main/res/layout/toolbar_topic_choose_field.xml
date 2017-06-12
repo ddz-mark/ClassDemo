@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topic_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/main_toolbar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/toolbar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/back"
+            android:background="@color/main_toolbar"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="选择学院班级"
+            android:textColor="@color/main_title_font"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/topic_choose_toolbar_tvFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@drawable/selector_topic_text"
+            android:paddingEnd="12dp"
+            android:paddingStart="0dp"
+            android:text="完成"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:paddingRight="12dp"
+            android:paddingLeft="0dp"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

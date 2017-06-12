@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#15023b</color>
+
+
+    <color name="defaultWhite">#ffffff</color>
+    <color name="transparent">#000000</color>
+    <color name="defaults">#10022b</color>
+    <color name="main_toolbar">#15023b</color>
+    <color name="main_title_font">@color/defaultWhite</color>
+    <color name="main_title_font_select">#dddddd</color>
+
+    <color name="topicChooseFont">#ababab</color>
+    <color name="topicChooseFont1">#15023b</color>
+    <color name="topicQuestionButton">#3700a6</color>
+    <color name="topicQuestionButtonPress">#15023b</color>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#f0f0f0"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <include layout="@layout/toolbar_topic_choose_field" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/topic_choose_tvField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:text="已选班级"
+                    android:textColor="#5c5c5c"
+                    android:textSize="15sp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:id="@+id/topic_choose_view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/defaultWhite"/>
+
+                    <com.markable.classdemo.base.FlowLayout
+                        android:id="@+id/topic_choose_fl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/defaultWhite"
+                        android:minHeight="30dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="15dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:text="可选学院"
+                    android:textColor="#5c5c5c"
+                    android:textSize="15sp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/defaultWhite"/>
+
+                    <com.markable.classdemo.base.FlowLayout
+                        android:id="@+id/topic_choose_flFirst"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/defaultWhite"
+                        android:minHeight="30dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="15dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:text="可选专业"
+                    android:textColor="#5c5c5c"
+                    android:textSize="15sp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/defaultWhite"/>
+
+                    <com.markable.classdemo.base.FlowLayout
+                        android:id="@+id/topic_choose_flSecond"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/defaultWhite"
+                        android:minHeight="30dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="15dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:gravity="center"
+                    android:paddingLeft="15dp"
+                    android:text="可选班级"
+                    android:textColor="#5c5c5c"
+                    android:textSize="15sp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/defaultWhite"/>
+
+                    <com.markable.classdemo.base.FlowLayout
+                        android:id="@+id/topic_choose_flThird"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/defaultWhite"
+                        android:minHeight="30dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="15dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
